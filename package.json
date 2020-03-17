@@ -19,8 +19,14 @@
     "url": "git+https://github.com/julekgwa/react-neumorphic-toggle.git"
   },
   "keywords": [
+    "toggle",
+    "toggle-button",
+    "checkbox",
     "react",
-    "switch"
+    "react-component",
+    "switch",
+    "radio toggle",
+    "toggle-switch"
   ],
   "author": "Junius Lekgwara",
   "license": "MIT",
