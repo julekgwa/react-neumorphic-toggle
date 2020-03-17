@@ -11,8 +11,8 @@
     "auto-fix-lint": "eslint --fix src",
     "linter": "eslint src",
     "build": "npm run pre-build && webpack",
-    "pretest": "npm install --save-dev react",
-    "pre-build": "npm remove --save react"
+    "pretest": "npm install --save-dev react react-dom",
+    "pre-build": "npm remove react react-dom"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
   "peerDependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.13.0",
+    "react-dom": "^16.13.0",
     "styled-components": "^5.0.1"
   },
   "devDependencies": {
@@ -49,6 +50,8 @@
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-modules-newline": "^0.0.1",
     "eslint-plugin-react": "^7.19.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
     "react-scripts": "^3.4.0",
     "style-loader": "^1.0.1",
     "styled-components": "^5.0.1",
