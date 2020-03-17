@@ -19,6 +19,8 @@ export const Switch = ({ theme, disabled, checked, ...props }) => {
         ? theme
         : Themes.light;
 
+  props.type = 'checkbox';
+
   return (
     <SwitchContainer theme={theme}>
       <div className='toggle'>
@@ -26,7 +28,7 @@ export const Switch = ({ theme, disabled, checked, ...props }) => {
           disabled={disabled}
           checked={checked}
           className='toggle-state'
-          type='checkbox'
+          name='checkbox'
           {...props}
         />
         <div className='indicator'></div>
@@ -40,4 +42,5 @@ Switch.propTypes = {
   theme: PropTypes.object,
   disabled: PropTypes.bool,
   checked: PropTypes.bool,
+  type: PropTypes.string,
 }
