@@ -1,0 +1,60 @@
+{
+  "name": "react-neumorphic-toggle",
+  "version": "1.0.0",
+  "description": "React neumorphic toggle switch",
+  "main": "./build/index.js",
+  "scripts": {
+    "test": "react-scripts test",
+    "coverage": "react-scripts test --env=jsdom --coverage",
+    "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls",
+    "lint": "eslint src",
+    "auto-fix-lint": "eslint --fix src",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julekgwa/react-neumorphic-toggle.git"
+  },
+  "keywords": [
+    "react",
+    "switch"
+  ],
+  "author": "Junius Lekgwara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julekgwa/react-neumorphic-toggle/issues"
+  },
+  "homepage": "https://github.com/julekgwa/react-neumorphic-toggle#readme",
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "coveralls": "^3.0.9",
+    "css-loader": "^3.3.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-modules-newline": "^0.0.1",
+    "eslint-plugin-react": "^7.19.0",
+    "react-scripts": "^3.4.0",
+    "style-loader": "^1.0.1",
+    "styled-components": "^5.0.1",
+    "webpack-cli": "^3.3.10"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  }
+}
