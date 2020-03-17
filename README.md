@@ -36,7 +36,7 @@ export default App;
 
 ## API
 
-| **Prop**           | **Type**             | **Default**   | **Description**                                                                           |
+| Prop           | Type             | Default   | Description                                                                           |   |
 |----------------|------------------|-----------|---------------------------------------------------------------------------------------|---|
 | autofocus      | bool             | false     | Sets or returns whether a checkbox should automatically get focus when the page loads |   |
 | checked        | bool             | Required  | Sets or returns the checked state of a checkbox                                       |   |
@@ -50,7 +50,7 @@ export default App;
 | required       | bool             | false     | Sets or returns whether the checkbox must be checked before submitting a form         |   |
 | type           | string           | checkbox  | Returns which type of form element the checkbox is                                    |   |
 | value          | string           | undefined | Sets or returns the value of the value attribute of a checkbox                        |   |
-| theme          | object or string | light     | changes the theme of the toggle    
+| theme          | object or string | light     | changes the theme of the toggle          
 
 ## Theme
 
