@@ -1,6 +1,6 @@
 A neumorphic toggle-switch component for React.
 
-[![npm](https://img.shields.io/npm/v/react-neumorphic-toggle.svg)](https://www.npmjs.com/package/react-neumorphic-toggle) [![GitHub stars](https://img.shields.io/github/stars/julekgwa/react-neumorphic-toggle.svg?style=social&label=Stars)](https://github.com/julekgwa/react-neumorphic-toggle) [![gzip size](http://img.badgesize.io/https://unpkg.com/react-neumorphic-toggle/build/index.js?compression=gzip)](https://unpkg.com/react-neumorphic-toggle/build/index.js) ![Travis (.org)](https://img.shields.io/travis/julekgwa/react-neumorphic-toggle)
+[![npm](https://img.shields.io/npm/v/react-neumorphic-toggle.svg)](https://www.npmjs.com/package/react-neumorphic-toggle) [![GitHub stars](https://img.shields.io/github/stars/julekgwa/react-neumorphic-toggle.svg?style=social&label=Stars)](https://github.com/julekgwa/react-neumorphic-toggle) [![gzip size](http://img.badgesize.io/https://unpkg.com/react-neumorphic-toggle/build/index.js?compression=gzip)](https://unpkg.com/react-neumorphic-toggle/build/index.js) ![Travis (.org)](https://img.shields.io/travis/julekgwa/react-neumorphic-toggle) ![npm](https://img.shields.io/npm/dw/react-neumorphic-toggle)
 
 ![toggle](images/toggle.gif)
 
