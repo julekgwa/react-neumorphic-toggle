@@ -2,7 +2,7 @@ A neumorphic toggle-switch component for React.
 
 [![npm](https://img.shields.io/npm/v/react-neumorphic-toggle.svg)](https://www.npmjs.com/package/react-neumorphic-toggle) [![GitHub stars](https://img.shields.io/github/stars/julekgwa/react-neumorphic-toggle.svg?style=social&label=Stars)](https://github.com/julekgwa/react-neumorphic-toggle) [![gzip size](http://img.badgesize.io/https://unpkg.com/react-neumorphic-toggle/build/index.js?compression=gzip)](https://unpkg.com/react-neumorphic-toggle/build/index.js) ![Travis (.org)](https://img.shields.io/travis/julekgwa/react-neumorphic-toggle) ![npm](https://img.shields.io/npm/dw/react-neumorphic-toggle)
 
-![toggle](images/toggle.gif)
+![toggle](images/react-toggle.png)
 
 ## Installation
 
@@ -21,7 +21,7 @@ $ yarn add react-neumorphic-toggle
 ```Javascript
 import React from 'react';
 
-import Switch from 'react-neumorphic-toggle';
+import { Switch } from 'react-neumorphic-toggle';
 
 function App() {
   return (
@@ -33,6 +33,8 @@ function App() {
 
 export default App;
 ```
+
+![toggle](images/toggle.gif)
 
 ## API
 
@@ -50,7 +52,7 @@ export default App;
 | required       | bool             | false     | Sets or returns whether the checkbox must be checked before submitting a form         |   |
 | type           | string           | checkbox  | Returns which type of form element the checkbox is                                    |   |
 | value          | string           | undefined | Sets or returns the value of the value attribute of a checkbox                        |   |
-| theme          | object or string | light     | changes the theme of the toggle          
+| theme          | object or string | light     | changes the theme of the toggle
 
 ## Theme
 
