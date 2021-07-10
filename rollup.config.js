@@ -1,7 +1,12 @@
-import babel from 'rollup-plugin-babel';
 import resolve from '@rollup/plugin-node-resolve';
+
+import babel from 'rollup-plugin-babel';
+
 import external from 'rollup-plugin-peer-deps-external';
-import { terser } from 'rollup-plugin-terser';
+
+import {
+  terser
+} from 'rollup-plugin-terser';
 
 export default [
   {
@@ -20,11 +25,12 @@ export default [
     plugins: [
       babel({
         exclude: 'node_modules/**',
-        presets: ['@babel/preset-react']
+        presets: ['@babel/preset-react'],
+        plugins: ['babel-plugin-styled-components'],
       }),
       external(),
       resolve(),
-      terser(),
+      terser()
     ],
     external: ['react', 'react-dom', 'prop-types', 'styled-components'],
   }

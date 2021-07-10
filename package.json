@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "files": [
-    "./dist"
+    "dist/*"
   ],
   "scripts": {
     "test": "react-scripts test",
@@ -58,6 +58,7 @@
     "@testing-library/user-event": "^13.1.9",
     "babel-loader": "^8.0.6",
     "babel-plugin-module-resolver": "^4.0.0",
+    "babel-plugin-styled-components": "^1.13.2",
     "coveralls": "^3.0.9",
     "eslint": "^7.30.0",
     "eslint-plugin-import": "^2.20.1",
